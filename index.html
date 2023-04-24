@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge encriptador</title>
+    <link rel="stylesheet" href="./styles/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/mainStyle.css" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="contenedor-principal">
+        <div class="contenedor-interaccion">
+          <input type="text" />
+          <p class="parrafo-info">
+            <i class="fa fa-info-circle"></i> sólo letras minúsculas y sin
+            acentos
+          </p>
+          <div class="button-container">
+            <button class="btn-encriptar">Encriptar!</button>
+            <button class="btn-desencriptar">Desencriptar!</button>
+          </div>
+        </div>
+        <div class="contenedor-resultados">
+          <textarea name="output" id="output" cols="30" rows="10"></textarea>
+          <button class="btn-copiar">Copiar</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
