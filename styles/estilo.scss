@@ -1,0 +1,175 @@
+body {
+  background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+  background-size: cover;
+
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor-principal {
+  display: flex;
+  width: 100%;
+  background-color: rgba(76, 175, 80, 0);
+  height: 100vh;
+  margin: 50px 30px;
+}
+
+.contenedor-interaccion {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border-radius: 32px;
+}
+.contenedor-image {
+  width: 120px;
+  height: 48px;
+}
+.form-principal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.entrada-usuario {
+  position: static;
+  width: 400px;
+  height: 300px;
+  margin: 50px auto 30px auto;
+  border: none;
+  font-size: 20px;
+  border-radius: 32px;
+  color: #fff;
+  background-color: rgba(255, 230, 200, 0.3);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 3.4em;
+  padding-right: 4.4em;
+}
+.entrada-usuario::placeholder {
+  color: #fff;
+  font-size: 20px;
+}
+.parrafo-info {
+  margin-top: 50px;
+  margin-right: 17%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Gray/gray-400 */
+
+  color: #fff;
+
+  opacity: 0.8;
+}
+.button-container {
+  margin: 0 auto 10px auto;
+}
+
+.btn-encriptar {
+  width: 328px;
+  background: #0a3871;
+  border-radius: 24px;
+  color: #ffffff;
+  margin-right: 20px;
+  border: none;
+  height: 50px;
+}
+
+.btn-desencriptar {
+  width: 328px;
+  height: 50px;
+  background: #d8dfe8;
+  /* Dark blue/dark-blue-300 */
+
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+}
+
+.contenedor-resultados {
+  display: flex;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 85vh;
+  padding: 0 5px;
+  justify-content: center;
+}
+
+.img-hide {
+  background: #ffffff;
+}
+
+.hide-elements {
+  visibility: hidden;
+}
+
+#output {
+  background-image: url('../imgs/Muñecosdas.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ffffff;
+  width: 85%;
+  height: 40vh;
+  border: none;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  resize: none;
+  margin: 0 auto 0 auto;
+}
+
+.contenedor-msgs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 336px;
+  height: 122px;
+}
+.no-msg-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  margin: 0;
+  /* or 29px */
+
+  text-align: center;
+
+  /* Gray/gray-500 */
+
+  color: #343a40;
+}
+
+.no-msg-p {
+  width: 336px;
+  height: 48px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+
+  /* Gray/gray-400 */
+
+  color: #495057;
+}
+
+.btn-copiar {
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  width: 50%;
+  align-self: center;
+  margin-top: 20px;
+  height: 50px;
+}
