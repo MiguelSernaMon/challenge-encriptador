@@ -102,14 +102,14 @@ body {
 }
 
 .img-hide {
-  background: #ffffff;
+  background: #ffffff !important;
 }
 
 .hide-elements {
   visibility: hidden;
 }
 
-#output {
+.output {
   background-image: url('../imgs/Muñecosdas.png');
   background-repeat: no-repeat;
   background-size: contain;
