@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+  background-image: url("http://i.stack.imgur.com/kx8MT.gif");
   background-size: cover;
   height: 100vh;
   padding: 0;
@@ -63,7 +63,7 @@ body {
 .parrafo-info {
   margin-top: 50px;
   margin-right: 17%;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -109,7 +109,7 @@ body {
 }
 
 .img-hide {
-  background-image: none !important;
+  background: #ffffff !important;
 }
 
 .hide-elements {
@@ -117,7 +117,7 @@ body {
 }
 
 .output {
-  background-image: url('../imgs/Muñecosdas.png');
+  background-image: url("../imgs/Muñecosdas.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #ffffff;
@@ -140,7 +140,7 @@ body {
 }
 
 .no-msg-title {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -155,7 +155,7 @@ body {
 .no-msg-p {
   width: 336px;
   height: 48px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -173,4 +173,4 @@ body {
   align-self: center;
   margin-top: 20px;
   height: 50px;
-} /*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */

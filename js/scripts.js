@@ -117,3 +117,13 @@ btnDesencriptar.addEventListener('click', function (e) {
     }
   }
 });
+
+btnCopiar.addEventListener('click', function () {
+  copiar(tableroSalida);
+});
+//función para copiar texto
+
+function copiar(texto) {
+  texto.select();
+  document.execCommand('copy');
+}
