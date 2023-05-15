@@ -173,3 +173,45 @@ body {
   margin-top: 20px;
   height: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .contenedor-principal {
+    display: flex;
+    width: 100%;
+    background-color: rgba(76, 175, 80, 0);
+    flex-direction: column;
+    padding: auto;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .contenedor-interaccion {
+    padding-top: 130%;
+    width: 100%;
+    margin-left: 0;
+  }
+  .form-principal {
+    width: 70%;
+    margin-top: 20%;
+  }
+  .entrada-usuario {
+    width: 80%;
+  }
+  .btn-encriptar {
+    margin-bottom: 20px;
+  }
+  .contenedor-resultados {
+    width: 80%;
+  }
+  .output {
+    width: 70%;
+  }
+  .contenedor-msgs {
+    width: 90%;
+    margin: auto;
+  }
+  .no-msg-p {
+    width: 90%;
+    margin: auto;
+  }
+}
